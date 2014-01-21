@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^$ /Blog/home [redirect]
+RewriteRule ^([a-zA-Z]+)/?([a-zA-Z0-9/]*)$ /Blog/app.php?page=$1&query=$2 [L]
